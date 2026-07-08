@@ -9,6 +9,7 @@ Please check off everything you completed by changing `[ ]` to `[x]`:
 - [ ] I created `exercises/about-me.md` (Step 5)
 - [ ] I committed and pushed my file (Step 6)
 - [ ] I opened this Pull Request (Step 7)
+- [ ] *(Bonus)* I published my own web page with GitHub Pages (Step 8)
 
 ---
 

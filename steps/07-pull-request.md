@@ -1,7 +1,7 @@
 # Step 7: Open a Pull Request
 
 **Previous step:** [Step 6 - Commit and Push](06-commit.md)
-**Next step:** You are done — your instructor will review your Pull Request!
+**Next step:** [Step 8 (Bonus) - Build and Publish Your Own Web Page](08-github-pages.md)
 
 ---
 
@@ -77,7 +77,9 @@ Check the **Checks** section at the bottom of your PR page to see the result.
 3. When everything looks good, your instructor will **merge** the PR.
 4. Your `about-me.md` file becomes part of the `main` branch.
 
-**Congratulations — you have completed the Tech Journey course!**
+**Congratulations — you have completed the core Tech Journey course!**
+
+Want to keep going? **[Step 8 (Bonus)](08-github-pages.md)** is an open-ended challenge: build your own web page and publish it live to the internet with GitHub Pages, using Copilot to help you design it.
 
 ---
 

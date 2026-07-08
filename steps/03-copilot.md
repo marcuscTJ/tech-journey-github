@@ -69,7 +69,7 @@ Explain what a git branch is, in simple terms for a beginner.
 
 Read the answer. In the very next step, you will create a branch — so this is a perfect warm-up.
 
-> **Copilot already knows this course.** This repository includes a set of instructions that tell Copilot about the seven steps and how to tutor you through them. That means you can ask course-aware questions anytime, like *"What should I do next?"* or *"I'm stuck on Step 5 — help?"*, and Copilot will guide you.
+> **Copilot already knows this course.** This repository includes a set of instructions that tell Copilot about the course steps and how to tutor you through them. That means you can ask course-aware questions anytime, like *"What should I do next?"* or *"I'm stuck on Step 5 — help?"*, and Copilot will guide you.
 
 ---
 

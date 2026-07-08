@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+  ===================================================================
+  This is YOUR web page. Right now it is a starter template.
+  In Step 8 you will make it your own and publish it to the internet.
+
+  It already comes loaded with some popular web tools (see the <head>
+  below). You do not need to understand them yet — just know that
+  Copilot knows them all, so you can ask it for cool changes.
+
+  How to edit it:
+    - Change any text between the tags (like the words inside h1 ... /h1).
+    - The "class=..." parts control how things LOOK (colors, size, spacing).
+    - Lines like this one are comments — notes the browser ignores.
+
+  Stuck or curious? Ask Copilot Chat things like:
+    "Explain what the class names on the <body> tag do."
+    "Change my background to a sunset gradient."
+    "Add a button with an icon that Alpine.js makes interactive."
+  ===================================================================
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- The title that shows in the browser tab. Change it! -->
+    <title>My Showcase Page</title>
+
+    <!-- ===== Toolkits loaded for you — Copilot knows all of these ===== -->
+
+    <!-- Tailwind CSS: style anything by adding class names, e.g. class="text-xl font-bold" -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome: icons, e.g. <i class="fa-solid fa-heart"></i> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- Google Fonts: the "Poppins" font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Alpine.js: adds simple interactivity with x-data and @click -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <script>
+      // Tell Tailwind to use the Poppins font everywhere on the page.
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: { sans: ["Poppins", "ui-sans-serif", "system-ui"] },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <!-- The classes below set the gradient background and center the card. -->
+  <body
+    class="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 flex justify-center items-start p-4"
+  >
+    <main class="bg-white w-full max-w-2xl my-12 p-10 rounded-2xl shadow-2xl">
+      <!-- ▼▼▼ START EDITING HERE ▼▼▼ -->
+
+      <h1 class="text-4xl font-extrabold text-gray-900">
+        Hi, I'm [Your Name] <span class="inline-block">👋</span>
+      </h1>
+      <p class="text-lg text-gray-500 mt-1">
+        A future developer learning Git, GitHub, and Copilot.
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 pb-1 border-b-4 border-purple-400">
+        About Me
+      </h2>
+      <p class="mt-3 text-gray-700">
+        Write a sentence or two about yourself here. What school do you go to?
+        What got you interested in tech?
+      </p>
+
+      <h2 class="text-2xl font-semibold mt-8 pb-1 border-b-4 border-purple-400">
+        Things I'm Into
+      </h2>
+      <ul class="mt-3 space-y-1 text-gray-700 list-disc list-inside">
+        <li>Change these to your own interests</li>
+        <li>Video games, art, sports, music — anything!</li>
+        <li>Add or remove list items as you like</li>
+      </ul>
+
+      <h2 class="text-2xl font-semibold mt-8 pb-1 border-b-4 border-purple-400">
+        What I'm Learning
+      </h2>
+      <p class="mt-3 text-gray-700">
+        Right now I'm learning how developers build and share software with
+        GitHub. This page is proof — I wrote it and published it myself!
+      </p>
+
+      <!--
+        A little interactive button, powered by Alpine.js.
+        x-data gives this box a tiny bit of "memory" (waves),
+        @click runs code when clicked, and x-text shows a value.
+      -->
+      <div x-data="{ waves: 0 }" class="mt-8">
+        <button
+          @click="waves++"
+          class="bg-purple-600 hover:bg-purple-700 text-white font-semibold px-5 py-2 rounded-lg shadow transition"
+        >
+          <i class="fa-solid fa-hand"></i> Wave at me
+        </button>
+        <span x-show="waves > 0" class="ml-3 text-gray-600">
+          Thanks for the <span x-text="waves"></span> wave(s)! 👋
+        </span>
+      </div>
+
+      <!-- ▲▲▲ STOP EDITING HERE (or keep going — it's your page!) ▲▲▲ -->
+
+      <footer class="mt-10 text-center text-sm text-gray-400">
+        Built with <i class="fa-solid fa-heart text-purple-400"></i> during the
+        Tech Journey course.
+      </footer>
+    </main>
+  </body>
+</html>

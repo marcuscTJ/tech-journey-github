@@ -41,8 +41,11 @@ Git and GitHub are used by every professional software developer in the world. I
 | [Step 5](steps/05-create-file.md) | Create Your File | Add and stage your about-me file |
 | [Step 6](steps/06-commit.md) | Commit and Push | Save a snapshot and send it to GitHub |
 | [Step 7](steps/07-pull-request.md) | Open a Pull Request | Request a review |
+| [Step 8](steps/08-github-pages.md) | Publish a Web Page *(bonus)* | Build and deploy your own live site with GitHub Pages |
 
 **Start here: [Step 1 - Fork the Repo](steps/01-fork.md)**
+
+> **Step 8 is an open-ended bonus.** Steps 1–7 are the core course. Step 8 is for students who want to keep experimenting with Copilot and put a real, shareable website on the internet — great for fast finishers, and a fun challenge for everyone.
 
 ---
 
@@ -73,6 +76,7 @@ These are the core git concepts you will learn:
 | Pull Request | A request to merge your branch into `main` |
 | Codespace | A full development environment that runs in the cloud |
 | Copilot | An AI assistant that suggests and explains code |
+| GitHub Pages | Free hosting that turns your files into a live website |
 
 **Optional: CLI commands (for the curious)**
 
