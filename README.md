@@ -1,4 +1,4 @@
-# Tech Journey: Learn Git and GitHub
+# Tech Journey: Learn Git, Copilot, and GitHub
 
 Git and GitHub are used by every professional software developer in the world. In this course, you will learn to use them too — working in a real cloud development environment with an AI assistant, all the way to opening a real Pull Request on GitHub.
 
